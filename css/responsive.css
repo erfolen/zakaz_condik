@@ -1,0 +1,224 @@
+/* Medium Layout: 1280px. */
+@media (max-width: 1280px) {
+	.row.no-gutter .col-md-2 {
+		width: 20% !important;
+	}
+
+	.single-team p::after {
+		left: 40%;
+		bottom: 170px;
+	}
+
+	.home-text h1 {
+		font-size: 85px;
+	}
+
+	.home-text h2 {
+		font-size: 75px;
+	}
+
+	.home-text h3 {
+		font-size: 20px;
+	}
+
+}
+
+/* Tablet Layout: 768px. */
+@media (max-width: 991px) {
+	#myNavbar ul li {
+		padding: 35px 9px 31px;
+	}
+
+	.single-team p::after {
+		bottom: 170px;
+		left: 37%;
+	}
+
+	.member-social-icon i {
+		padding: 20px 5px;
+		font-size: 18px;
+	}
+
+	.price-bottom a {
+		width: 183px;
+		line-height: 30px;
+		margin-top: 18x;
+	}
+
+	.footer-social i {
+		padding: 12px 2px;
+		font-size: 12px;
+	}
+
+	.footer-p {
+		padding: 0;
+		font-size: 14px;
+	}
+
+	.home-text h1 {
+		font-size: 75px;
+	}
+
+	.home-text h2 {
+		font-size: 60px;
+	}
+
+	.view_work {
+		flex-wrap: wrap;
+	}
+
+	.animated {
+		margin-bottom: 25px;
+	}
+
+	.list-date {
+		float: none;
+	}
+
+	.price-top {
+		height: 245px;
+	}
+
+	.price-bottom {
+		height: 710px;
+	}
+}
+
+/* Mobile Layout: 320px. */
+@media (max-width: 767px) {
+	header .navbar-brand {
+		width: 30%;
+	}
+
+	.navbar-toggle {
+		margin: 0px;
+		margin-right: 30px;
+		background-color: black;
+		background-image: none;
+		border: 1px solid black;
+		border-radius: 4px;
+		font-size: 18px;
+		top: 8px;
+	}
+
+	.navbar-header {
+		position: fixed;
+		background: #fff;
+		height: 60px;
+		width: 100%;
+		top: 0;
+	}
+
+	.phone {
+		margin: 0;
+		font-size: 25px;
+		padding-top: 10px;
+	}
+
+	.home-text h1,
+	.home-text h2 {
+		font-size: 35px;
+
+	}
+
+	.home-text h3 {
+		padding: 10px;
+		font-size: 16px;
+		font-weight: 500;
+	}
+
+	.home>img {
+		max-width: 60%;
+	}
+
+	.navbar-brand>img {
+		max-width: 100%
+	}
+
+	.single-team {
+		text-align: center;
+	}
+
+	.list-date {
+		float: none;
+	}
+
+	.latest-news::after {
+		left: 0;
+	}
+
+	.single-team p::after {
+		left: 40%;
+		bottom: 174px;
+	}
+
+	#myNavbar ul li {
+		padding: 0 20px 10px;
+		text-transform: uppercase;
+	}
+
+	.carousel-indicators li.active {
+		height: 10px;
+		width: 44px;
+	}
+
+	.carousel-indicators li {
+		width: 44px;
+		height: 8px;
+	}
+
+	#service,
+	#price,
+	#news {
+		padding: 0 25px;
+	}
+
+	.gellery-item {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.row.no-gutter .col-md-2 {
+		width: 33% !important;
+	}
+
+	.price-top {
+		height: 175px;
+	}
+
+	.price-bottom {
+		height: 545px;
+	}
+}
+
+/* Wide Mobile Layout: 480px. */
+@media (max-width: 480px) {
+	.phone {
+		font-size: 18px;
+	}
+
+	.navbar-toggle {
+		margin-right: 5px;
+	}
+
+	.home-text h1,
+	.home-text h2 {
+		font-size: 24px;
+	}
+
+	.section-heading h2 {
+		font-size: 25px
+	}
+
+	.row.no-gutter .col-md-2 {
+		width: 49% !important;
+	}
+
+	.price-top {
+		height: 240px;
+	}
+
+	.price-bottom {
+		height: 690px;
+	}
+}
